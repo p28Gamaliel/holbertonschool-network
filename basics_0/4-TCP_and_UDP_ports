@@ -1,1 +1,5 @@
-sudo netstat -l -p
+#!/bin/bash
+echo "Displaying listening ports (TCP and UDP) with PID and program name:"
+echo "------------------------------------------------------------------"
+
+sudo ss -tunlp
