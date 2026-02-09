@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# List all open ports
-sudo netstat -pl
+#!/bin/bash
+netstat -l -p
